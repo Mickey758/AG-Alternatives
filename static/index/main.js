@@ -4,3 +4,9 @@ function e_username(){
         icon: "info"
     })
 }
+function e_password(){
+    Swal.fire({
+        html: '<p class="text">Request<br>https://api.agalts.xyz/v1/password?format=json&length=10<br><br>Response<br>{"error":false,"password":"TfueSux123"}</p>',
+        icon: "info"
+    })
+}
