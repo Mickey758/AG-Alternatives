@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="static/index/main.css">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
     <script src="static/index/main.js"></script>
     <title>AG Api Documentation</title>
 </head>
@@ -23,6 +24,14 @@
             <p class="text">Get a random password in text or json format.</p>
             <button class="test" onclick="e_password()">Example</button>
             <textarea class="url" style="width:370px"disabled>api.agalts.xyz/v1/password?length=10&format=json</textarea>
+        </div>
+        <div class="text">
+            <p class="get">GET</p>
+            <p class="bottom_post">POST</p>
+            <p class="text">Get information about an ip address.</p>
+            <button class="middle_test" onclick="e_ip_lookup()">Example</button>
+            <p class="url_text">Correct post data: {'ip':'0.0.0.0','format':'json'}</p>
+            <textarea class="url" style="width:400px"disabled>api.agalts.xyz/v1/iplookup?ip=0.0.0.0&format=json</textarea>
         </div>
     </div>
 </body>

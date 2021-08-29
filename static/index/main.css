@@ -38,6 +38,26 @@ div.text{
     border-radius: 5px;
     background-color: rgba(240, 255, 240, 0.336);
 }
+p.url_text{
+    font-family: 'Ubuntu', sans-serif;
+    float:right;
+    margin-top: -85px;
+    margin-right: 140px;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+p.bottom_post{
+    min-width: 25px;
+    display: table;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(253, 123, 123);
+    margin-bottom: 5px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 p.post{
     min-width: 25px;
     display: table;
@@ -51,7 +71,7 @@ p.post{
     padding-right: 5px;
 }
 p.get{
-    min-width: 25px;
+    min-width: 24px;
     display: table;
     font-family: 'Staatliches', cursive;
     font-size: 15px;
@@ -59,7 +79,7 @@ p.get{
     background-color: rgb(71, 250, 125);
     margin-bottom: 5px;
     padding-top: 2px;
-    padding-left: 10px;
+    padding-left: 8px;
     padding-right: 5px;
 }
 p.text{
@@ -78,9 +98,18 @@ button.test{
     font-size: 10px;
     background-image: url("https://pngpress.com/wp-content/uploads/2020/08/uploads_buttons_buttons_PNG46.png");
 }
+button.middle_test{
+    float: right;
+    padding-top: 1px;
+    margin-right: 520px;
+    margin-top: -68px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    background-image: url("https://pngpress.com/wp-content/uploads/2020/08/uploads_buttons_buttons_PNG46.png");
+}
 textarea.url{
     margin-right: 20px;
-    margin-top: -55px;
+    margin-top: -65px;
     float: right;
     resize: none;
     width: auto;
