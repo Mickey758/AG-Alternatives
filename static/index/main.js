@@ -13,7 +13,7 @@ function e_password(){
 }
 function e_ip_lookup(){
     Swal.fire({
-        html: '<p class="text">Request<br>https://api.agalts.xyz/v1/iplookup?ip=0.0.0.0format=json<br><br>Response<br>{"error":True,"message":"Ip Invalid!"}</p>',
+        html: '<p class="text">Request<br>https://api.agalts.xyz/v1/iplookup?ip=0.0.0.0&format=json<br><br>Response<br>{"error":True,"message":"Ip Invalid!"}</p>',
         icon: "info",
         width: "700",
     })
