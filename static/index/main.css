@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+h3{
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(244, 247, 255);
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(218, 231, 255);
+}
+div.info{
+    margin:auto;
+    align-self: center;
+    width: 1100px;
+    border-radius: 17px;
+    background-color: rgb(215, 215, 255);
+    align-content: center;
+    padding-left: 20px;
+    padding-top: 18px;
+    padding-right: 20px;
+    padding-bottom: 1px;
+}
+div.api{
+    font-family: 'Mukta', sans-serif;
+}
+div.text{
+    padding-left: 5px;
+    padding-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(240, 255, 240, 0.336);
+}
+p.post{
+    min-width: 25px;
+    display: table;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(253, 123, 123);
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p.get{
+    min-width: 25px;
+    display: table;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgb(71, 250, 125);
+    margin-bottom: 0px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+p.text{
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 5px;
+}
+p{
+    margin-top: 0px;
+}
+body{
+    background-color: rgb(154, 154, 255);
+}
