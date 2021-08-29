@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="static/index/main.css">
-    <title>AG Alternatives</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="static/index/main.js"></script>
+    <title>AG Api Documentation</title>
 </head>
 <body>
-    <h3>AG Alternatives</h3>
+    <h3>AG ALTERNATIVES</h3>
     <h2>API DOCUMENTATION</h2>
     <div class="info">
         <div class="text">
             <p class="get">GET</p>
-            <p class="text">Get a random username</p>
+            <p class="text">Get a random username in text or json format.</p>
+            <button class="test" onclick="test_username()">Test</button>
+            <textarea class="url" style="width:300px"disabled>api.agalts.xyz/v1/username?format=text</textarea>
         </div>
     </div>
 </body>

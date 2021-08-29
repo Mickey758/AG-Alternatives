@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
 
 h3{
     font-family: 'Staatliches', cursive;
@@ -56,7 +57,7 @@ p.get{
     font-size: 15px;
     border-radius: 5px;
     background-color: rgb(71, 250, 125);
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     padding-top: 2px;
     padding-left: 10px;
     padding-right: 5px;
@@ -67,6 +68,26 @@ p.text{
 }
 p{
     margin-top: 0px;
+}
+button.test{
+    float: right;
+    padding-top: 1px;
+    margin-right: 350px;
+    margin-top: -53px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    background-image: url("https://pngpress.com/wp-content/uploads/2020/08/uploads_buttons_buttons_PNG46.png");
+}
+textarea.url{
+    margin-right: 20px;
+    margin-top: -55px;
+    float: right;
+    resize: none;
+    width: auto;
+    overflow: hidden;
+    height: 15px;
+    text-align: center;
+    padding-top: 4px;
 }
 body{
     background-color: rgb(154, 154, 255);
