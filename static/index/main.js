@@ -18,3 +18,10 @@ function e_ip_lookup(){
         width: "700",
     })
 }
+function e_socks4proxy(){
+    Swal.fire({
+        html: '<p class="text">Request<br>https://api.agalts.xyz/v1/getproxy?type=socks4&format=json<br><br>Response<br>{"error":False,"proxies":["177.128.115.209:4153","202.51.117.26:5678"]}</p>',
+        icon: "info",
+        width: "700",
+    })
+}
