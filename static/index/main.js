@@ -27,7 +27,7 @@ function e_socks4proxy(){
 }
 function e_pasteupload(){
     Swal.fire({
-        html: '<p class="text">Request<br>https://paste.agalts.xyz/upload?paste=Hello<br><br>Response<br>{"code":"hvft","error":false,"url":"https://paste.agalts.xyz/hvft"}</p>',
+        html: '<p class="text">Get Request<br>https://paste.agalts.xyz/upload?paste=Hello<br><br>Response<br>{"code":"hvft","error":false,"url":"https://paste.agalts.xyz/hvft"}</p><br><p class="text">Post Request<br>https://paste.agalts.xyz/upload<br><br><p class="text">Json Content</p><br>{"paste":"Hello World"}<br><br>Response<br>{"code":"hvft","error":false,"url":"https://paste.agalts.xyz/hvft"}</p>',
         icon: "info",
         width: "700",
     })
