@@ -25,3 +25,10 @@ function e_socks4proxy(){
         width: "700",
     })
 }
+function e_pasteupload(){
+    Swal.fire({
+        html: '<p class="text">Request<br>https://paste.agalts.xyz/upload?paste=Hello<br><br>Response<br>{"code":"hvft","error":false,"url":"https://paste.agalts.xyz/hvft"}</p>',
+        icon: "info",
+        width: "700",
+    })
+}
