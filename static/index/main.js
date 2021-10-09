@@ -32,3 +32,10 @@ function e_pasteupload(){
         width: "700",
     })
 }
+function e_linvertiselink(){
+    Swal.fire({
+        html: '<p class="text">Request<br>https://api.agalts.xyz/v1/linkvertise?id=186422&url=https://google.com<br><br>Response<br>{"error":false,"link":"https://link-to.net/186422/331.81563999515663/dynamic/?r=aHR0cHM6Ly9nb29nbGUuY29t"}</p>',
+        icon: "info",
+        width: "700",
+    })
+}
